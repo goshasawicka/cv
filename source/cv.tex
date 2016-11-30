@@ -1,0 +1,52 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%	PERSONAL INFORMATION
+\name{Gosha}{Sawicka}
+\address{616 Park View Drive \#205, Santa Clara, 95054, CA, USA}
+\mobile{(+1) 650-785-3907}
+\email{gosha@sawicka.io}
+\homepage{blog.sawicka.io}
+\github{patyk}
+\linkedin{goshasawicka}
+% \twitter{@twit}
+% \skype{skype-id}
+% \extrainfo{extra informations}
+
+% \quote{``Computers are hard mkay?"}
+
+\begin{document}
+
+\makecvheader
+
+\makecvfooter
+  {\today}
+  {Gosha Sawicka~~~·~~~Curriculum Vitae}
+  {}
+
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/projects.tex}
+\input{cv/experience.tex}
+
+\end{document}

@@ -1,0 +1,14 @@
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.dvi
+*-converted-to.*
+<<<<<<< HEAD
+.*sw[op]
+*~
+*.DS_Store
+output/*
