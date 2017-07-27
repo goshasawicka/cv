@@ -1,4 +1,4 @@
-## patyk/cv
+## goshasawicka/cv
 
 ```
 sudo apt-get install texlive-full
