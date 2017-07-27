@@ -557,7 +557,7 @@
 % Define an entry of cv information
 % Usage: \cvproject{<name>}{<headline>}{<description>}
 \newcommand*{\cvproject}[3]{%
-  \vspace{-2.0mm}
+  \vspace{-0.5mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -610,7 +610,7 @@
 % Define an environment for cvskill
 \newenvironment{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-2.0mm}
+  \vspace{0.0mm}
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
